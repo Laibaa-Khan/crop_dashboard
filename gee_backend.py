@@ -1,8 +1,6 @@
 import ee
 
-ee.Initialize(
-    project="bubbly-sentinel-486808-v7"
-)
+from ee_auth import *
 
 # ==========================
 # PROVINCE REGION
